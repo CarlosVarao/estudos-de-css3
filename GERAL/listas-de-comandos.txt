@@ -226,3 +226,80 @@
 :opacity;	Serve para congifurar a opacidade do elemento
 
 :root;		colocar vareaveis dentro para ultilizar
+
+:Display; Define um elemento como flex, inline oublock.
+
+:Flex-direction; 
+
+Define o eixo em que os itens serão colocados. Nesse caso em linhas ou colunas
+
+row (default): esquerda para direita
+
+row-reverse: direita para esquerda
+
+column: de cima para baixo
+
+column-reverse: de baixo para cima
+
+:Flex-wrap
+
+Serve para dizer como você quer quebrar a linha. wrap faz a div quebrar a linha quando chega ao final. nowrap Não quebra
+
+wrap: faz a div quebrar a linha quando chega ao final.
+nowrap: Não quebra a linha.
+wrap-reverse: Quebrar linhas de baixo para cima.
+
+:Justify-Content;
+
+Define o alinhamento no eixo horizontal
+
+flex-start: Alinha no começo da linha
+flex-end: Alinha no final da linha
+center: Alinha no centro da linha
+space-between: O espaço é igualmente distribuido (representado na imagem)
+space-around: (representado na imagem)
+space-evenly: (representado na imagem)
+
+
+:Align-items;
+
+Define o alinhamento no eixo vertical
+
+stretch: Enche a div para preencher todo o conteudo
+flex-start: Os items são posicionados no início verticalmente
+flex-end: Os items são posicionados no fim verticalmente
+center: Os items são posicionados no centro verticalmente
+baseline: Os items são posicionados de acordo com seu texto
+
+:Align-Content;
+
+Define o alinhamento quando se tem várias linhas
+
+stretch: Enche a div para preencher todo o conteudo
+flex-start: Os items são posicionados no início verticalmente
+flex-end: Os items são posicionados no fim verticalmente
+center: Os items são posicionados no centro verticalmente
+space-between: O espaço é igualmente distribuido (representado na imagem)
+space-around: (representado na imagem)
+space-evenly: (representado na imagem)
+stretch: Preenche as divs para ocupar todo o conteudo
+
+:order;
+
+Por padrão, os itens flexíveis são dispostos na ordem de origem. No entanto, a orderpropriedade controla a ordem em que aparecem no contêiner flexível.
+
+:flex-grow;
+
+Isso define a capacidade de um item flexível crescer, se necessário. Aceita um valor sem unidade que serve de proporção. Ele determina a quantidade de espaço disponível dentro do contêiner flexível que o item deve ocupar.
+
+Se todos os itens forem flex-growdefinidos como 1, o espaço restante no contêiner será distribuído igualmente para todos os filhos. Se um dos filhos tiver um valor de 2, esse filho ocuparia o dobro do espaço de qualquer um dos outros (ou tentará, pelo menos).
+
+:flex-shrink;
+
+Isso define a capacidade de um item flexível encolher, se necessário.
+
+:flex-basis;
+
+Isso define o tamanho padrão de um elemento antes que o espaço restante seja distribuído. Pode ser um comprimento (por exemplo, 20%, 5rem, etc.) ou uma palavra-chave. A autopalavra-chave significa “olhar para minha propriedade de largura ou altura” (o que foi temporariamente feito pela main-sizepalavra-chave até ser obsoleto). A contentpalavra-chave significa “dimensioná-lo com base no conteúdo do item” – esta palavra-chave ainda não é bem suportada, então é difícil testar e mais difícil saber o que seus irmãos , max-contente min-contentfazem fit-content.
+
+
